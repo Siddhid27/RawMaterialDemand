@@ -140,4 +140,5 @@ if st.button("📅 Show Demand Trend"):
 # Step 5️⃣: Footer
 # ------------------------------------------------
 st.markdown("---")
-st.caption("Made with ❤️ by Siddhi’s AI Forecast System — powered by Machine Learning 🌟")
+
+
