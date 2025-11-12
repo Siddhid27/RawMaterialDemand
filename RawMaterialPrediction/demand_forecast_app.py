@@ -21,7 +21,7 @@ st.write("Forecasts that inform procurement schedules, inventory levels, and pro
 # ------------------------------------------------
 @st.cache_data
 def load_data():
-    data = pd.read_csv("https://github.com/Siddhid27/RawMaterialDemand/blob/main/RawMaterialPrediction/train.csv")
+    data = pd.read_csv("https://github.com/Siddhid27/RawMaterialDemand/blob/main/RawMaterialPrediction/train.csv",sep=None, engine="python", on_bad_lines="skip")
     return data
 
 data = load_data()
@@ -140,6 +140,7 @@ if st.button("📅 Show Demand Trend"):
 # Step 5️⃣: Footer
 # ------------------------------------------------
 st.markdown("---")
+
 
 
 
