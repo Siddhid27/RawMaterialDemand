@@ -21,7 +21,7 @@ st.write("Forecasts that inform procurement schedules, inventory levels, and pro
 # ------------------------------------------------
 @st.cache_data
 def load_data():
-    data = pd.read_csv("https://raw.githubusercontent.com/username/repo/main/train.csv")
+    data = pd.read_csv("https://www.kaggle.com/datasets/arashnic/food-demand/train.csv")
     return data
 
 data = load_data()
@@ -140,6 +140,7 @@ if st.button("📅 Show Demand Trend"):
 # Step 5️⃣: Footer
 # ------------------------------------------------
 st.markdown("---")
+
 
 
 
